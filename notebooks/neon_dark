@@ -1,0 +1,51 @@
+# === neon_dark_clean.mplstyle ===
+
+# Fondo y ejes
+figure.facecolor : black
+axes.facecolor   : black
+axes.edgecolor   : white
+axes.labelcolor  : white
+axes.labelsize   : medium
+axes.titlecolor  : white
+axes.titlesize   : large
+axes.titleweight : normal
+axes.titlelocation : center
+axes.grid        : True
+axes.grid.axis   : both
+axes.grid.which  : major
+
+# Cuadrícula personalizada
+grid.color       : grey
+grid.linestyle   : --
+grid.linewidth   : 0.8
+grid.alpha       : 1.0
+
+# Fuente
+font.family      : serif
+font.serif       : Times New Roman
+font.size        : 12.0
+
+# Colores neón (sin errores de sintaxis)
+axes.prop_cycle  : cycler(color=["#00bfff","#FF0055","#00FF66", "#ffa500", "#ff00ff", "#39ff14", "#ffff33"])
+
+# Líneas
+lines.linewidth  : 2.5
+lines.markersize : 6.0
+
+# Texto
+text.color       : white
+
+# Ticks
+xtick.color      : white
+xtick.labelsize  : medium
+ytick.color      : white
+ytick.labelsize  : medium
+
+# Imagen
+image.cmap       : inferno
+
+# Guardado
+savefig.facecolor : black
+savefig.edgecolor : black
+savefig.bbox      : tight
+
